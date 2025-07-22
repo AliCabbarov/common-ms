@@ -8,8 +8,8 @@ ext {
     springCloudVersion = "2025.0.0"
 }
 
-group = 'com.example'
-version = '0.0.1-SNAPSHOT'
+group = 'com.github.AliCabbarov'
+version = 'v1.0.0'
 
 java {
     toolchain {
@@ -33,7 +33,6 @@ bootJar {
 
 jar {
     enabled = true
-    archiveBaseName.set("common-ms")
 }
 
 dependencies {
